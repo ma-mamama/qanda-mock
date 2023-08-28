@@ -24,3 +24,5 @@ TOP画面
 
 共通のCSS (必ずheadに書く)
 css/applications.css
+
+ページごとのCSSは、htmlと同じように階層を分けて同じファイル名にする
