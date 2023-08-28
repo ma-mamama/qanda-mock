@@ -1,0 +1,29 @@
+header {
+    background-color: #FFFA7A;
+    height: 157px;
+    width: auto;
+}
+body {
+    margin: 0px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    gap: 0px 50px;
+    margin-top: 58px;
+}
+.profile img {
+    border-radius: 50%;
+    width: 294px;
+    height: 294px;
+}
+.profile .name {
+    font-size: 64px;
+}
+.profile .email {
+    font-size: 30px;
+}
+.profile .comment {
+    font-size: 18px;
+}
