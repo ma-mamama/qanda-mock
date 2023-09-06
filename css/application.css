@@ -1,7 +1,28 @@
 body {
     margin: 0px;
 }
-  
+
+header  {
+    background-color: #FFFA7A;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    display: flex;
+}
+
+header .menu-button {
+    height: 80%;
+    width: 100px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+header .menu-button img {
+    height: 50%;
+}
+
 .header_1 {
     font-size: 200%;
     text-align: center;
