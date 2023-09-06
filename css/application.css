@@ -46,3 +46,7 @@ header .menu-button img {
 .header_4{
     flex-basis:20%;
 }
+
+.offcanvas-body ul {
+    list-style: none;
+}
