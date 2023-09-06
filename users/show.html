@@ -15,7 +15,7 @@
     <header>
         <div class="menu-button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><img data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" src="../../../img/list.svg"></div>
     </header>
-    <div class="container">
+    <div data-controller="hello" class="container">
         <div class="profile border-bottom">
             <div>
                 <img class="profile-image" src="../../../img/shankuD.jpeg">
@@ -37,7 +37,7 @@
         <div class="contents">
             <ul class="nav nav-underline justify-content-center nav-justified">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Question</a>
+                    <a id="question-tab" class="nav-link active" data-bs-toggle="tab" aria-current="page" href="javascript:void(0);">Question</a>
                 </li>
                 <li class="nav-item">
                     <a id="answer-tab" class="nav-link" data-bs-toggle="tab" href="javascript:void(0);">Answer</a>
@@ -127,5 +127,6 @@
     <footer>
 
     </footer>
+    <script type="module" src="../js/users/show.js"></script>
 </body>
 </html>
