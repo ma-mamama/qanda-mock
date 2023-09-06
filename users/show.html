@@ -55,10 +55,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">回答済み</a>
                     </li>
-                    <li class="sort_button">
+                    <li class="sort_button dropdown" data-bs-toggle="dropdown" aria-expanded="false">
                         <a class="nav-link" href="#">
                             <img src="../../../img/sort_black_24dp.svg">
                         </a>
+                        <ul class="sort-menu dropdown-menu">
+                            <li><a class="dropdown-item" href="#">投稿日時(早い順)</a></li>
+                            <li><a class="dropdown-item active" href="#">投稿日時(遅い順)</a></li>
+                            <li><a class="dropdown-item" href="#">回答数(多い順)</a></li>
+                            <li><a class="dropdown-item" href="#">回答数(少ない順)</a></li>
+                          </ul>
                     </li>
                 </ul>
             </div>
